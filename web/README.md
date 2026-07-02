@@ -18,7 +18,7 @@ npm run dev
 
 Pré-requisitos no projeto Supabase:
 
-1. Migrations de `supabase/migrations/` aplicadas (0001 e 0002).
+1. Migrations de `supabase/migrations/` aplicadas em ordem (0001 → 0004).
 2. **Allow anonymous sign-ins** habilitado (Authentication → Sign In / Providers).
 
 ## Estrutura

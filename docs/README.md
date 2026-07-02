@@ -3,8 +3,13 @@
 > Rede social 100% texto e 100% anônima para expressão emocional saudável.
 > Usuários são apenas números (`Usuário #48291`). Sem fama, sem seguidores, sem algoritmo viciante.
 
-**Status:** documento de arquitetura e produto — fase de design, sem código.
+**Status:** MVP **implementado e em produção** — https://ecoa-teal.vercel.app (código em [`../web/`](../web/README.md)).
 **Data:** julho/2026 · **Nome de trabalho:** ECOA (trocável).
+
+> Este blueprint é o documento de *design* original. O que foi construído segue o
+> blueprint com as divergências conscientes listadas em
+> [implementacao-status.md](implementacao-status.md). A auditoria de UX pós-MVP
+> está em [auditoria-ux-v1.md](auditoria-ux-v1.md).
 
 ## Estrutura do documento
 
