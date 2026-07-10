@@ -162,6 +162,17 @@ export function Onboarding({ erro }: { erro?: string }) {
           Já tenho uma conta → recuperar
         </a>
       </p>
+
+      <p className="text-center text-[11px] text-muted/70">
+        <a
+          href="https://milweb.com.br"
+          target="_blank"
+          rel="noopener"
+          className="transition-colors hover:text-accent"
+        >
+          Site por MilWeb
+        </a>
+      </p>
     </main>
   );
 }
