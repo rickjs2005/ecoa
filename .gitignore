@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Next.js / build output
+.next/
+out/
+build/
+*.tsbuildinfo
+
+# Environment files (keep the example)
+.env*
+!.env.example
+
+# Vercel / Supabase local state
+.vercel
+supabase/.temp/
+
+# Logs and test output
+*.log
+npm-debug.log*
+coverage/
+
+# OS / editor
+.DS_Store
+Thumbs.db
