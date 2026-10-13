@@ -3,7 +3,7 @@
 > Rede social 100% texto e 100% anônima para expressão emocional saudável.
 > Usuários são apenas números (`Usuário #48291`). Sem fama, sem seguidores, sem algoritmo viciante.
 
-**Status:** MVP **implementado e em produção** — https://ecoa-teal.vercel.app (código em [`../web/`](../web/README.md)).
+**Status:** MVP **implementado e em produção** — https://ecoa-teal.vercel.app (código em [`../web/`](../README.pt-BR.md)).
 **Data:** julho/2026 · **Nome de trabalho:** ECOA (trocável).
 
 > Este blueprint é o documento de *design* original. O que foi construído segue o
