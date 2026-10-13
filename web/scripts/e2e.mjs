@@ -1,8 +1,14 @@
 // Teste de ponta a ponta do banco do ECOA (roda direto contra o Supabase)
 import { createClient } from "@supabase/supabase-js";
 
-const URL = "https://duglkbtapxwngrbywbkf.supabase.co";
-const KEY = "sb_publishable_w42fAp3Hv6TunYFF1rl1_w_wheq1iPk";
+// Lê as mesmas variáveis do app (ex.: `node --env-file=.env.local scripts/e2e.mjs`).
+// ATENÇÃO: cria e apaga contas anônimas e conteúdo de teste no projeto apontado.
+const URL = process.env.NEXT_PUBLIC_SUPABASE_URL;
+const KEY = process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY;
+if (!URL || !KEY) {
+  console.error("Defina NEXT_PUBLIC_SUPABASE_URL e NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY (ex.: node --env-file=.env.local scripts/e2e.mjs).");
+  process.exit(1);
+}
 
 const results = [];
 function check(name, ok, extra = "") {

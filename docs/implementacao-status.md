@@ -10,7 +10,7 @@
 | Código | `web/` neste repositório (Next.js 16 + Tailwind v4 + Supabase) |
 | Banco | Supabase, projeto `ecoa`, ref `duglkbtapxwngrbywbkf`, região `sa-east-1` |
 | Migrations | `web/supabase/migrations/0001…0004` (aplicadas em produção nessa ordem) |
-| Teste e2e | `node scripts/e2e.mjs` dentro de `web/` — 19 cenários contra o banco real |
+| Teste e2e | `node --env-file=.env.local scripts/e2e.mjs` dentro de `web/` — 19 cenários contra o projeto Supabase configurado (cria e apaga contas de teste) |
 | Deploy | `vercel deploy --prod --yes` dentro de `web/` (deploy por git ainda não conectado) |
 | Env | `web/.env.example` → `.env.local`; na Vercel: `NEXT_PUBLIC_SUPABASE_URL` + `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` |
 
